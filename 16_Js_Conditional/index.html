@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Conditional statemants</title>
+    <style>
+        #res {
+            font-size: 40px;
+            background-color: rgb(40, 4, 66);
+            color: #06e006;
+            text-align: center;
+            
+    </style>
+    <script>
+        function age()
+        {
+            if(document.getElementById("t1").value>=18)
+            {      
+                document.getElementById("res").innerHTML="Elegible for voteing";
+                // window.alert("Eligible for voteing");
+                // document.writeln("Eligible for voteing");     //Output will be change
+            }
+            else
+            {
+                document.getElementById("res").innerHTML="UnElegible for voteing";
+                // window.alert("UnElegible for voteing");
+                // document.writeln("UnEligible for voteing");  // Output will be change
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Enter the age:<input type="text" id="t1"><br></h1>
+    <button type="button" onclick="age()">Verify</button>
+    <div id="res"></div>
+
+    </div>
+</body>
+</html>

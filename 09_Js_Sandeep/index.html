@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Basics</title>
+    <style>
+        #text{
+            color: rgb(231, 8, 8);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="hello">Change the HTML content</h1>
+    <h2 id="hcontent">Hello Guest</h2>
+    <h3>Wel Come to JavaScript</h3>
+    <button type="button" onclick='document.getElementById("hcontent").innerHTML=" Hello NareshReddy"'>Naresh</button>
+    <button type="button" onclick='document.getElementById("hcontent").innerHTML=" Hello Vamshireddy"'>Vamshi</button>
+
+    <button type="button" onclick='document.getElementById("hello").innerHTML="CHANGE THE HTML CONTENT"'>CHANGE THE HTML CONTENT </button>
+<!-- Change the attributes -->
+    <h1>Change in attributes</h1>
+    <img id="image" src="red.png" width="160" height="160"><br><br>
+
+    <button type="button" onclick='document.getElementById("image").src="green.png"'>Green</button>
+    <button type="button" onclick='document.getElementById("image").src="blue.png"'>Blue</button>
+    <button type="button" onclick='document.getElementById("image").src="red.png"'>Red</button>
+
+<!-- Changes in css  -->
+<h1>Changes in CSS</h1>
+<h2 id="text">Introduce to JavaSCript</h2>
+<button type="button" onclick='document.getElementById("text").style.color="green"'>Green</button>
+<button type="button" onclick='document.getElementById("text").style.color="blue"'>Blue</button>
+
+
+<!-- Hide and display content -->
+<h1>Hide and display content</h1>
+<h2 id="hidedisplay">This will demonstrate the hiding and displaying the content </h2>
+<button type="button" onclick='document.getElementById("hidedisplay").style.display="none"'>Hide</button>
+<button type="button" onclick='document.getElementById("hidedisplay").style.display="block"'>Display</button>
+
+
+</body>
+</html>
